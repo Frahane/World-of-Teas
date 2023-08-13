@@ -108,7 +108,7 @@ h1 {
 }
 
 .scalable-image {
-  transition: transform .4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
   max-width: 25%;
   border-radius: 10px;
   height: 100%;
@@ -132,7 +132,7 @@ h1 {
 .scalable {
   width: 50%;
   border-radius: 10px;
-  
+  transition: transform 0.4s ease-in-out;
 }
 
 .scalable.scaling {
