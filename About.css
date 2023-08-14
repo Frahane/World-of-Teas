@@ -1,5 +1,5 @@
 
-@media only screen and (width: 768px) and (height: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* CSS rules for iPad */
   img, figure {
   width: 100%;
@@ -7,19 +7,39 @@
   border-radius: 10%;
 }
 
-.scalable-image.scaled {
-  transform: scale(3.5);
-  position: absolute;
-  border-radius: 5%;
-  width: 44%;
-  height: 59%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
 .scalable-image {
   transition: transform .4s ease-in-out;
   max-width: 100%;
 }
+
+.scalable-godel {
+  display: flex;
+  transition: transform .4s ease-in-out;
+  max-width: 100%;
+  height: auto;
+  justify-content: space-around;
+}
+
+.image-wrapper {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.scalable-godel.scaled {
+  transform: scale(3.5);
+  position: relative;
+  border-radius: 5%;
+  width: 35%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 }
 
 body {
@@ -112,13 +132,12 @@ img, figure {
   width: 100px;
   height: 60%;
   border-radius: 10%;
+  
 }
 
 .container {
   display: flex;
   justify-content: center;
-  justify-content: space-around;
-  gap: 35px;
   box-sizing: border-box;
   padding: 20px;
   margin: 4px auto;
@@ -134,20 +153,39 @@ img, figure {
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-  z-index: 1;
+  gap: 5%;
 }
 
 .scalable-image {
   transition: transform .4s ease-in-out;
   max-width: 100%;
+  height: 100%;
+ 
 }
 
 .scalable-image.scaled {
   transform: scale(3.5);
   position: absolute;
   border-radius: 5%;
-  width: 44%;
-  height: 29%;
+  width: 35%;
+  height: 70%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.scalable-godel {
+  transition: transform .4s ease-in-out;
+  max-width: 100%;
+  height: auto;
+  justify-content: space-around;
+}
+
+.scalable-godel.scaled {
+  transform: scale(3.5);
+  position: absolute;
+  border-radius: 5%;
+  width: 35%;
+  height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 

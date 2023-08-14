@@ -11,5 +11,9 @@ $(function() {
     $('.scalable').click(function() {
     $(this).toggleClass('scaling');
   });
+  
+   $('.scalable-godel').click(function() {
+    $(this).toggleClass('scaled');
+  });
 
 });
