@@ -32,10 +32,10 @@
 }
 
 .scalable-godel.scaled {
-  transform: scale(3.5);
+  transform: scale(1.5);
   position: relative;
   border-radius: 5%;
-  width: 35%;
+  width: 10%;
   height: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -136,7 +136,7 @@ img, figure {
 }
 
 .container {
-  display: flex;
+  
   justify-content: center;
   box-sizing: border-box;
   padding: 20px;
@@ -153,7 +153,7 @@ img, figure {
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-  gap: 5%;
+  
 }
 
 .scalable-image {
@@ -167,7 +167,7 @@ img, figure {
   transform: scale(3.5);
   position: absolute;
   border-radius: 5%;
-  width: 35%;
+  width: auto;
   height: 70%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -178,10 +178,11 @@ img, figure {
   max-width: 100%;
   height: auto;
   justify-content: space-around;
+  
 }
 
 .scalable-godel.scaled {
-  transform: scale(3.5);
+  transform: scale(1.8);
   position: absolute;
   border-radius: 5%;
   width: 35%;
