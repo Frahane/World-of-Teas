@@ -1,6 +1,11 @@
 $(function() {
   $('.menu-toggle').click(function() {
     $(this).toggleClass('active');
+    event.stopPropagation();
+  });
+  
+  $('.body').click(function(){
+     $('.menu-toggle').removeClass('active');
   });
   
   
